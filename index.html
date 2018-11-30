@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="comp-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+        <div id="show-user-rock" class="show-user"><img class="img-size" src="images/rock.png" alt="rock"></div>
+        <div id="show-user-paper" class="show-user"><img class="img-size" src="images/paper.png" alt="paper"></div>
+        <div id="show-user-scissors" class="show-user"><img class="img-size" src="images/scissors.png" alt="scissors"></div>
+        <div id="show-comp-rock" class="show-comp"><img class="img-size" src="images/rock.png" alt="rock"></div>
+        <div id="show-comp-paper" class="show-comp"><img class="img-size" src="images/paper.png" alt="paper"></div>
+        <div id="show-comp-scissors" class="show-comp"><img class="img-size" src="images/scissors.png" alt="scissors"></div>
+    </div>
+    <div class="result">
+        <p>Welcome to the Game.</p>
+    </div>
+    <div id="choices">
+        <div class="choice" id="r">
+            <img src="images/rock.png" alt="rock">
+        </div>
+        <div class="choice" id="p">
+            <img src="images/paper.png" alt="paper">
+        </div>
+        <div class="choice" id="s">
+            <img src="images/scissors.png" alt="scissors">
+        </div>
+    </div>
+    <p id="action-message">Make your move! Whoever first gets to 5, wins.</p>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Allerta Stencil', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(228, 247, 232);
+    color: rgb(6, 46, 37);
+    text-align: center;
+    padding: 20px 0;
+}
+
+header>h1 {
+    font-size: 40px;
+}
+
+body {
+    background-color: rgb(6, 46, 37);
+    /*or we can use rgb(43, 9, 10); */
+}
+
+.score-board {
+    border: 3px white solid;
+    border-radius: 4px;
+    width: 200px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 70px;
+    padding: 15px 20px;
+    position: relative;
+    color: white;
+}
+
+.badge {
+    background: rgb(150, 3, 3);
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+#user-label {
+    position: absolute;
+    top: 45px;
+    left: -28px;
+}
+
+#comp-label {
+    position: absolute;
+    top: 45px;
+    right: -30px;
+}
+
+.img-size {
+    width: 70px;
+    height: 60px;
+}
+
+.show-user {
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: -160px;
+    padding: 10px 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.show-comp {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: -160px;
+    padding: 10px 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+#choices {
+    text-align: center;
+}
+
+.choice {
+    display: inline-block;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 50px 20px;
+    transition: all 0.5s ease;
+}
+
+.choice img {
+    width: 90px;
+    height: 80px;
+}
+
+.choice:hover {
+    background-color: #03120F;
+    cursor: pointer;
+}
+
+#action-message {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.green-glow {
+    border: 3px solid rgb(166, 250, 40);
+    box-shadow: 0 0 10px rgb(8, 165, 8);
+}
+
+.red-glow {
+    border: 3px solid rgb(252, 15, 15);
+    box-shadow: 0 0 10px rgb(204, 8, 8);
+}
+
+.grey-glow {
+    border: 3px solid rgb(85, 85, 85);
+    box-shadow: 0 0 10px rgb(82, 63, 63);
+}
